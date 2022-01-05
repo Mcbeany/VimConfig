@@ -33,7 +33,7 @@ call plug#end()
 
 " Vim key mappings
 map <C-p> :NERDTreeToggle<CR>
-map <C-S-`> :terminal powershell<CR>
+map <C-l> :terminal powershell<CR>
 nmap <M-Right> :vertical resize +1<CR> 		
 nmap <M-Left> :vertical resize -1<CR>
 nmap <M-Down> :resize +1<CR>
