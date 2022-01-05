@@ -38,7 +38,7 @@ nmap <M-Right> :vertical resize +1<CR>
 nmap <M-Left> :vertical resize -1<CR>
 nmap <M-Down> :resize +1<CR>
 nmap <M-Up> :resize -1<CR>
-nnoremap <C-Tab> :bn<CR>
+nnoremap <Tab> :bn<CR>
 
 " Vim themes suck
 set background=light
