@@ -1,2 +1,2 @@
 # VimConfig
-My (Neo)Vim Configuration (Copied from Google xd)
+Don't use it lol
