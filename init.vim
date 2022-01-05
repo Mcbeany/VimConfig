@@ -17,7 +17,7 @@ syntax on
 " Plugins
 call plug#begin(stdpath('config').'/plugged')
 	" I hate vim themes
-	Plug 'preservim/nerdtree'						" NERDTree
+	Plug 'preservim/nerdtree'					" NERDTree
 	Plug 'Xuyuanp/nerdtree-git-plugin'
 	Plug 'ryanoasis/vim-devicons'
 	Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
@@ -26,7 +26,7 @@ call plug#begin(stdpath('config').'/plugged')
 	Plug 'ryanoasis/vim-devicons'
 	Plug 'vim-airline/vim-airline'					" Airline
 	Plug 'vim-airline/vim-airline-themes'
-	Plug 'jiangmiao/auto-pairs'						" Autopairs
+	Plug 'jiangmiao/auto-pairs'					" Autopairs
 	Plug 'neoclide/coc.nvim', {'branch': 'release'} " Auto Complete
 	Plug 'github/copilot.vim'					" Copilot
 call plug#end()
