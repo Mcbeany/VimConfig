@@ -33,15 +33,14 @@ call plug#end()
 
 " Vim key mappings
 map <C-p> :NERDTreeToggle<CR>
-map <C-l> :terminal powershell<CR>
-nmap <M-Right> :vertical resize +1<CR> 		
-nmap <M-Left> :vertical resize -1<CR>
-nmap <M-Down> :resize +1<CR>
-nmap <M-Up> :resize -1<CR>
-nnoremap <Tab> :bn<CR>
+map <C-o> :terminal powershell<CR>
+nmap <C-l> :vertical resize +1<CR> 		
+nmap <C-h> :vertical resize -1<CR>
+nmap <C-j> :resize +1<CR>
+nmap <C-k> :resize -1<CR>
 
 " Vim themes suck
-set background=light
+set background=dark
 
 " NERDTree settings
 let g:NERDTreeGitStatusIndicatorMapCustom = {
@@ -62,6 +61,7 @@ autocmd BufEnter * if bufname('#') =~ 'NERD_tree_\d\+' && bufname('%') !~ 'NERD_
 	\ let buf=bufnr() | buffer# | execute "normal! \<C-W>w" | execute 'buffer'.buf | endif
 let g:nerdtree_sync_cursorline = 1
 autocmd BufEnter * if tabpagenr('$') == 1 && winnr('$') == 1 && exists('b:NERDTree') && b:NERDTree.isTabTree() | quit | endif
+let NERDTreeShowHidden=1
 
 " Airline settings
 let g:airline_theme='luna'
